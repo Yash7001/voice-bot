@@ -1,0 +1,9 @@
+# ── Gemini Live API SDK ──────────────────────────────────────────────────────
+google-genai>=1.16.0
+pyaudio>=0.2.14
+
+
+# ── Environment variable loading ─────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+
