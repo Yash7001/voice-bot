@@ -153,7 +153,6 @@ async def browser_to_gemini(session, websocket: WebSocket) -> None:
             audio={"data": data, "mime_type": "audio/pcm"}
         )
 
-
 async def gemini_to_browser(session, websocket: WebSocket) -> None:
     """
     Receives audio/text responses from Gemini Live and relays them to the browser.
