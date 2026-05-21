@@ -97,7 +97,7 @@ EXPERIENCE:
 SKILLS
     AI Automation: LangChain, LangGraph, AI Agents, n8n, LLM APIs, Langfuse
     Generative AI: LLMs, NLP, RAG (Retrieval-Augmented Generation), Vector database, Prompt Engineering
-    ML/DL: Supervised & Unsupervised Algorithms, Fine-tuning, CNN, LSTM, Transformers, Self-attention
+    ML/DL: Supervised & Unsupervised Algorithms, CNN, LSTM, Transformers
     Libraries & Frameworks: TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, OpenCV
     Programming Languages: Python
     Tools: GitHub, Visual Studio Code, Jupyter Notebook, Google Colab, Cursor
