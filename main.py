@@ -158,20 +158,22 @@ async def gemini_to_browser(session, websocket: WebSocket) -> None:
     Receives audio/text responses from Gemini Live and relays them to the browser.
     - Audio chunks  → binary WebSocket frames (raw Int16 PCM, 24 kHz, mono)
     - Text snippets → JSON text frame  { type: "text",          content: "..." }
+    - Interrupted   → JSON text frame  { type: "interrupted" }
+      (user barged in — browser must stop playback and drop stale audio)
     - Turn end      → JSON text frame  { type: "turn_complete" }
-      (tells the browser to stop queuing audio for the current turn — handles interrupts)
     """
     while True:
         turn = session.receive()
         async for response in turn:
+            sc = response.server_content
+            if sc and sc.interrupted:
+                await websocket.send_text(json.dumps({"type": "interrupted"}))
             if data := response.data:
                 await websocket.send_bytes(data)
             if text := response.text:
                 await websocket.send_text(
                     json.dumps({"type": "text", "content": text})
                 )
-        # Turn ended: Gemini finished speaking or the user interrupted.
-        # Notify the browser so it can flush its pending audio queue.
         await websocket.send_text(json.dumps({"type": "turn_complete"}))
 
 
@@ -216,7 +218,8 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
         "main:app",
-        host="0.0.0.0",
+        # host="0.0.0.0",
+        host="localhost",
         port=8765,
         reload=True,      # Remove reload=True in production
         log_level="info",
