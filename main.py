@@ -177,8 +177,13 @@ async def gemini_to_browser(session, websocket: WebSocket) -> None:
         await websocket.send_text(json.dumps({"type": "turn_complete"}))
 
 
-# ── WebSocket endpoint ──────────────────────────────────────────────────────
+# ── Health check ────────────────────────────────────────────────────────────
 
+@app.get("/health")
+async def health_check():
+    return {"status": "alive"}
+
+# ── WebSocket endpoint ──────────────────────────────────────────────────────
 @app.websocket("/ws/voice")
 async def voice_endpoint(websocket: WebSocket) -> None:
     """
