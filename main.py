@@ -49,73 +49,62 @@ OPERATIONAL CORE RULES (NON-NEGOTIABLE):
 4. VOICE-FIRST DELIVERY: This is a spoken conversation. Keep answers concise, direct, and under 2-3 sentences. Do not use bullet points, markdown formatting, asterisks, or bold text in your output. Speak naturally and always be polite and professional.
 
 RESUME:
-Yash Prajapati
-Phone number: +91-9313077125 | email: yashprajapati1007@gmail.com | LinkedIn.com/in/yashprajapati1007 | Address: Ahmedabad, India
-
-
-PROJECTS
-Mobot: A RAG-based AI Assistant for Moweb
-    • Orchestrated a serverless RAG pipeline using Google Gemini's FileSearch tool APl, automating vector
-    retrieval and context management to ensure high-accuracy, domain-specific responses without manual
-    indexing overhead.
-    • Integrated the AI assistant into the organization's official live website, establishing a seamless frontend
-    to-backend communication loop that delivers context-aware user support.
-    Partial Line Loss Correction: Certificate
-    • As a part of ISRO's research, single-handedly developed a ConvLSTM-based model for predicting missing
-    data in INSAT 3DS satellite images, using thousands of image sequences.
-    • Implemented a binary mask approach to restore missing pixels, normalizing pixel values and achieving a
-    MAE of 0.006, and accuracy of about 98% with minimal image modifications.
-
-
-EXPERIENCE:
-    Associate AI/ML Engineer, Moweb Technologies
-        Jan. 2026 - Present
-        • Developed a production-grade AI-powered time entry assistant using Groq API with a 2-second
-        debounce mechanism for real-time description suggestions; implemented a 5-key round-robin rotation
-        strategy to sustain seamless performance across 60-70 concurrent users.
-        • Integrated Langfuse for full LLM observability in production, enabling prompt versioning, trace
-        monitoring, latency and cost tracking to ensure reliability and continuous optimization of AI-driven
-        workflows.
-        • Engineered a multi-stage data extraction pipeline using Python and curl_cffi to automate sourcing of
-        9,587+ business leads from BrownBook, leveraging Cloudflare bypass techniques and rate-limit handling
-        for resilient, uninterrupted scraping.
-
-    AI/ML Intern, Moweb Technologies
-        Aug. 2025 - Dec. 2025
-        • Architected an end-to-end autonomous Lead Generation Agent using n8n, LLM APIs and Apify actors to
-        scrape leads from Google Maps and landing page text data, generating hyper-personalized outreach
-        emails that automated the entire funnel from discovery to delivery.
-
-    Research Intern, SAC-ISRO, Ahmedabad
-        Jan. 2025 - Apr. 2025
-        • Conducted research in the fields of image reconstruction and image prediction using various CNN
-        models and LSTM.
-        • Utilized INSAT-3DS Satellite data by MOSDAC, ISRO for training the model for the image prediction. The
-        research achieved an accuracy of about 98% with MAE of 0.0006.
-
-
-SKILLS
-    AI Automation: LangChain, LangGraph, AI Agents, n8n, LLM APIs, Langfuse
-    Generative AI: LLMs, NLP, RAG (Retrieval-Augmented Generation), Vector database, Prompt Engineering
-    ML/DL: Supervised & Unsupervised Algorithms, CNN, LSTM, Transformers
-    Libraries & Frameworks: TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, OpenCV
-    Programming Languages: Python
-    Tools: GitHub, Visual Studio Code, Jupyter Notebook, Google Colab, Cursor
-    Soft skills: Patience, Leadership, problem-solving
-
-
-EDUCATION
-    Bachelor of Engineering, Information and Communication Technology (ICT)
-    Sal Institute of Technology and Engineering Research, Ahmedabad, CGPA: 7.72
-
-
-ACHIEVEMENTS
-    Oct. 2021 - June. 2025
-    • Enhanced a skin cancer detection POC by redesigning the CNN architecture and data augmentation
-    pipeline, enhancing accuracy from 76% to 91%, and improving model sensitivity through recall-based
-    evaluation.
-    • Led university football team to 3 inter-college championships by valuing every player and making quick,
-    strategic on-field decisions.
+Yash Prajapati  
++91-9313077125 | yashprajapati1007@gmail.com| LinkedIn.com/in/yashprajapati1007 
+PROJECTS                       
+Mobot: A RAG-based AI Assistant for Moweb 
+• Orchestrated a serverless RAG pipeline using Google Gemini's FileSearch tool APl, automating vector 
+retrieval and context management to ensure high-accuracy, domain-specific responses without manual 
+indexing overhead. 
+• Integrated the AI assistant into the organization's official live website, establishing a seamless frontend
+to-backend communication loop that delivers context-aware user support. 
+Partial Line Loss Correction: Certificate 
+• As a part of ISRO's research, single-handedly developed a ConvLSTM-based model for predicting missing 
+data in INSAT 3DS satellite images, using thousands of image sequences. 
+• Implemented a binary mask approach to restore missing pixels, normalizing pixel values and achieving a 
+MAE of 0.006, and accuracy of about 98% with minimal image modifications. 
+EXPERIENCE                      
+Associate AI/ML Engineer, Moweb Technologies                 
+Jan. 2026 - Present 
+• Engineered a RAG ingestion pipeline that indexed multiple enterprise Markdown documents into several 
+semantic chunks using section-aware parsing, Sentence Transformers embeddings, and ChromaDB 
+vector storage with per-chunk metadata. 
+• Designed a hybrid retrieval system combining dense vector search with lexical keyword, domain-specific 
+query expansion, and custom re-ranking to return top-8 context chunks; added full-index lexical fallback 
+when vector retrieval fails, improving recall on technical/product documentation queries. 
+• Built end-to-end LLM observability and evaluation pipeline in Langfuse - prompt versioning, 
+trace/latency/cost monitoring, and LLM-as-a-Judge scoring across 5 RAG metrics (Hallucination, Context 
+Precision, Context Recall, Goal Accuracy, Context Relevance) - evaluating 140+ production traces daily at 
+under $0.25 total compute cost, surfacing failure patterns to prioritize iterative pipeline fixes. 
+AI/ML Intern, Moweb Technologies      
+Aug. 2025 - Dec. 2025 
+• Architected an end-to-end autonomous Lead Generation Agent using n8n, LLM APIs and Apify actors to 
+scrape leads from Google Maps and landing page text data, generating hyper-personalized outreach 
+emails that automated the entire funnel from discovery to delivery. 
+Research Intern, SAC-ISRO, Ahmedabad      
+Jan. 2025 - Apr. 2025 
+• Conducted research in the fields of image reconstruction and image prediction using various CNN 
+models and LSTM. 
+• Utilized INSAT-3DS Satellite data by MOSDAC, ISRO for training the model for the image prediction. The 
+research achieved an accuracy of about 98% with MAE of 0.0006. 
+SKILLS                       
+AI Automation: LangChain, LangGraph, AI Agents, n8n, LLM APIs, Langfuse 
+Generative AI: LLMs, NLP, RAG (Retrieval-Augmented Generation), Vector database, Prompt Engineering 
+ML/DL: Supervised & Unsupervised Algorithms, CNN, LSTM, Transformers 
+Libraries & Frameworks: TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, OpenCV 
+Programming Languages: Python 
+Tools: Cursor, Visual Studio Code, Cursor, Jupyter Notebook, Google Colab 
+Soft skills: Patience, Leadership, problem-solving 
+EDUCATION                      
+Bachelor of Engineering, Information and Communication Technology (ICT)  
+Sal Institute of Technology and Engineering Research, Ahmedabad, CGPA: 7.72 
+ACHIEVEMENTS                      
+Oct. 2021 - June. 2025 
+• Enhanced a skin cancer detection POC by redesigning the CNN architecture and data augmentation 
+pipeline, enhancing accuracy from 76% to 91%, improving model sensitivity through recall-based 
+evaluation. 
+• Led university football team to 3 inter-college championships by valuing every player and making quick, 
+strategic on-field decisions. 
 
 """
 
@@ -175,7 +164,6 @@ async def gemini_to_browser(session, websocket: WebSocket) -> None:
                     json.dumps({"type": "text", "content": text})
                 )
         await websocket.send_text(json.dumps({"type": "turn_complete"}))
-
 
 # ── Health check ────────────────────────────────────────────────────────────
 
