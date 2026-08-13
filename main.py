@@ -49,62 +49,40 @@ OPERATIONAL CORE RULES (NON-NEGOTIABLE):
 4. VOICE-FIRST DELIVERY: This is a spoken conversation. Keep answers concise, direct, and under 2-3 sentences. Do not use bullet points, markdown formatting, asterisks, or bold text in your output. Speak naturally and always be polite and professional.
 
 RESUME:
-Yash Prajapati  
-+91-9313077125 | yashprajapati1007@gmail.com| LinkedIn.com/in/yashprajapati1007 
-PROJECTS                       
-Mobot: A RAG-based AI Assistant for Moweb 
-• Orchestrated a serverless RAG pipeline using Google Gemini's FileSearch tool APl, automating vector 
-retrieval and context management to ensure high-accuracy, domain-specific responses without manual 
-indexing overhead. 
-• Integrated the AI assistant into the organization's official live website, establishing a seamless frontend
-to-backend communication loop that delivers context-aware user support. 
-Partial Line Loss Correction: Certificate 
-• As a part of ISRO's research, single-handedly developed a ConvLSTM-based model for predicting missing 
-data in INSAT 3DS satellite images, using thousands of image sequences. 
-• Implemented a binary mask approach to restore missing pixels, normalizing pixel values and achieving a 
-MAE of 0.006, and accuracy of about 98% with minimal image modifications. 
-EXPERIENCE                      
-Associate AI/ML Engineer, Moweb Technologies                 
-Jan. 2026 - Present 
-• Engineered a RAG ingestion pipeline that indexed multiple enterprise Markdown documents into several 
-semantic chunks using section-aware parsing, Sentence Transformers embeddings, and ChromaDB 
-vector storage with per-chunk metadata. 
-• Designed a hybrid retrieval system combining dense vector search with lexical keyword, domain-specific 
-query expansion, and custom re-ranking to return top-8 context chunks; added full-index lexical fallback 
-when vector retrieval fails, improving recall on technical/product documentation queries. 
-• Built end-to-end LLM observability and evaluation pipeline in Langfuse - prompt versioning, 
-trace/latency/cost monitoring, and LLM-as-a-Judge scoring across 5 RAG metrics (Hallucination, Context 
-Precision, Context Recall, Goal Accuracy, Context Relevance) - evaluating 140+ production traces daily at 
-under $0.25 total compute cost, surfacing failure patterns to prioritize iterative pipeline fixes. 
-AI/ML Intern, Moweb Technologies      
-Aug. 2025 - Dec. 2025 
-• Architected an end-to-end autonomous Lead Generation Agent using n8n, LLM APIs and Apify actors to 
-scrape leads from Google Maps and landing page text data, generating hyper-personalized outreach 
-emails that automated the entire funnel from discovery to delivery. 
-Research Intern, SAC-ISRO, Ahmedabad      
-Jan. 2025 - Apr. 2025 
-• Conducted research in the fields of image reconstruction and image prediction using various CNN 
-models and LSTM. 
-• Utilized INSAT-3DS Satellite data by MOSDAC, ISRO for training the model for the image prediction. The 
-research achieved an accuracy of about 98% with MAE of 0.0006. 
-SKILLS                       
-AI Automation: LangChain, LangGraph, AI Agents, n8n, LLM APIs, Langfuse 
-Generative AI: LLMs, NLP, RAG (Retrieval-Augmented Generation), Vector database, Prompt Engineering 
-ML/DL: Supervised & Unsupervised Algorithms, CNN, LSTM, Transformers 
-Libraries & Frameworks: TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, OpenCV 
-Programming Languages: Python 
-Tools: Cursor, Visual Studio Code, Cursor, Jupyter Notebook, Google Colab 
-Soft skills: Patience, Leadership, problem-solving 
-EDUCATION                      
-Bachelor of Engineering, Information and Communication Technology (ICT)  
-Sal Institute of Technology and Engineering Research, Ahmedabad, CGPA: 7.72 
-ACHIEVEMENTS                      
-Oct. 2021 - June. 2025 
-• Enhanced a skin cancer detection POC by redesigning the CNN architecture and data augmentation 
-pipeline, enhancing accuracy from 76% to 91%, improving model sensitivity through recall-based 
-evaluation. 
-• Led university football team to 3 inter-college championships by valuing every player and making quick, 
-strategic on-field decisions. 
+Yash Prajapati 
++91-9313077125 | yashprajapati1007@gmail.com| LinkedIn.com/in/yashprajapati1007
+SUMMARY											           
+AI/ML Engineer experienced in building Generative AI applications, LLM-powered conversational AI, RAG pipelines, prompt engineering and AI workflows. Hands-on experience with LangChain, Gemini, ChromaDB, FastAPI, Python, LLM evaluation, monitoring, and AI application optimization.
+PROJECTS											           
+Mobot: A RAG-based AI Assistant for Moweb
+•	Orchestrated a serverless RAG pipeline using Google Gemini’s FileSearch tool API, automating vector retrieval and context management to ensure high-accuracy, domain-specific responses without manual indexing overhead.
+•	Integrated the conversational AI assistant into the organization’s official live website via FastAPI based REST API, establishing a seamless frontend-to-backend communication loop that delivers context-aware user support.
+•	Followed Agile development practices with Git-based version control for iterative pipeline development and cross-functional teams collaboration.
+Partial Line Loss Correction: Certificate
+•	As a part of ISRO’s research, single-handedly developed a ConvLSTM-based model for predicting missing data in INSAT 3DS satellite images, using thousands of image sequences.
+•	Implemented a binary mask approach to restore missing pixels, normalizing pixel values and achieving a MAE of 0.006, and accuracy of 98% with minimal image modifications.
+
+EXPERIENCE											           
+Associate AI/ML Engineer, Moweb Technologies	     			  	          Jan. 2026 – Present
+•	Engineered a RAG ingestion pipeline that processes 50+ markdown knowledge-base documents into 500+ semantically segmented chunks using heading-aware section parsing, 900-character chunk sizing with 180-character overlap, SentenceTransformers embeddings, and ChromaDB persistence with per-chunk metadata for filename, section, and chunk index.
+•	Designed a hybrid retrieval system combining dense vector search with lexical keyword, domain-specific query expansion, and prompt engineering techniques, evaluates 18 retrieval candidates per query and custom re-ranking to return top-6 context chunks and automatically falls back to full-index lexical search when semantic retrieval fails.
+•	Implemented an end-to-end LLM observability and evaluation pipeline in Langfuse - prompt versioning, traces, cost monitoring, latency, token usage, evaluating 1000+ production traces at an estimated compute cost below $0.25 while surfacing failure patterns to guide iterative pipeline improvements and MLOps-driven model deployment decisions.
+AI/ML Intern, Moweb Technologies	     			  	                     Aug. 2025 – Dec. 2025
+•	Experience mentioned in the projects and achievement section
+Research Intern, SAC-ISRO, Ahmedabad: Certificate				      Jan. 2025 – Apr. 2025
+•	Conducted research in the fields of image reconstruction and image prediction using various CNN architectures and LSTM algorithm.
+•	Utilized INSAT-3DS Satellite data by MOSDAC, ISRO for training the model for the image reconstruction.
+SKILLS											           
+Generative AI: LLMs, NLP, TF-IDF, RAG (Retrieval-Augmented Generation), Vector database, chromaDB, Prompt Engineering, MLOps, Model Deployment, Gemini API, Conversational AI, 
+ML/DL/Fine-tuning: Supervised & Unsupervised Algorithms, CNN, LSTM, Transformers, LoRA, QLoRA
+Libraries & Frameworks: LangChain, TensorFlow, scikit-learn, NumPy, Matplotlib, OpenCV, FastAPI, MLflow
+Programming Languages: Python | Tools: Git, Github, Cursor, VS Code, Jupyter Notebook, Google Colab
+Soft Skills: Problem-solving, Patient, Excellent Communicator, Continuous learner
+EDUCATION											           
+Bachelor of Engineering, Information and Communication Technology (ICT)		Oct. 2021 – June. 2025
+Sal Institute of Technology and Engineering Research, Ahmedabad, CGPA: 7.72
+ACHIEVEMENTS										           
+•	Enhanced skin cancer detection POC by redesigning the CNN architecture and data augmentation pipeline, enhancing accuracy from 76% to 91% and model sensitivity through recall-based evaluation.
 
 """
 
